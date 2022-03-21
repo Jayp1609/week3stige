@@ -1,0 +1,355 @@
+.back1{
+    background-color: #1087e9e3;
+    height: 100%;
+    width: 100%;
+    
+}
+.back1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header1{
+    font-family:Nunito, sans-serif;
+    font-size: 50px;
+    line-height: 34px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    padding-left: 110px;
+    padding-top: 30px;
+    
+}
+.header2{
+    font-size: 16px;
+    font-family: Nunito,sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid white
+}
+.header3{
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 110px;
+}
+.body1{
+
+    font-family: sans-serif;
+    color:white;
+    padding-left: 175px;
+    padding-top: 50px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttonplaystore{
+    padding-left: 0px;
+    border-radius: 5px;
+    border:0px solid white;
+    background-color: white;
+    padding-right: 10px;
+
+}
+@keyframes img1ani{
+   0% {top:0px;}
+   50% {top: 15px;}
+   100%{top:0px;}
+}
+.img1{
+    padding-right: 110px;
+    position: relative;
+    animation-name: img1ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.back2{
+    background-color: #0142b9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;   
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.text2{
+    color: white;
+    font-family: sans-serif;
+}
+.img2{
+    padding: 100px;
+}
+.back3{
+    font-family: Nutino,sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.header4{
+    text-align: center;
+    font-size: 32px;
+    padding: 60px;
+}
+.howitworks{
+    display: flex;
+    flex-direction: column;
+}
+.img4{
+    width: 130px;
+    position: relative;
+    padding-left: 78px;
+    animation-name: img1ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.img5{
+    width:70px;
+    padding-left: 100px;
+}
+.back4{
+    font-family: Nutino,sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.fourparts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.whitepart{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+}  
+.whitepart:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+} 
+.greypart{
+    background-color: #ecebeb;
+    width: 250px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.greypart:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.rightpart{
+    padding: 40px;
+}
+.text3{
+    padding-top: 150px auto;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.back5{
+    background-color: #ecebeb;
+    font-family: Nutino,sans-serif;
+    padding: 80px;
+}
+.header5{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+.mobile2{
+    animation-name: img1ani;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    padding-bottom: 40px;
+}
+.threeparts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.back6{
+    background-color: #0142b9;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+.back6 p{
+    font-size: 18px;
+    line-height: 30.6px;
+    vertical-align: baseline;
+}
+.bottombutton{
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    display: flex;
+    border: 10px solid black;
+}
+
+.back7{
+    font-family: Nutino,sans-serif;
+    padding-top: 20px;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+.slider{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 600px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.container .image{
+    display: none;
+    justify-content: center;
+    
+}
+
+.container .image img{
+    width: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+
+.container .button{
+    position: absolute;
+    top:60px;
+    width: 500px ;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.container .button a{
+    width: 40px;
+    height: 90px; 
+    cursor: pointer;
+    color: rgb(173, 173, 173);
+    font-size: 35px;
+    user-select: none;
+}
+
+.container .button .prev{
+    border-radius: 0 5px 5px 0;
+}
+
+.container .button .next{
+    border-radius: 5px 0 0 5px;
+}
+
+.text7{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.bottomdisplay{
+    display: flex;
+    flex-direction: column;
+}
+.bottomtext{
+    text-align: center;
+    font-size:28px;
+}
+.bottomthreepart{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px;
+    flex-wrap: wrap;
+}
+.bottomfour{
+    padding-top: 40px;
+}
+.botimgbor{
+    
+    width: 200px;
+    height: 90px;
+    margin:60px;
+    padding-right: auto;
+}
+
+.slidetrack{
+  display: flex;
+  margin-left: 60px;
+  width: 100%;
+  animation: slid 40s linear infinite;
+  transform: translate(0,-50%);
+  position: relative ;
+}
+@keyframes slid{
+    0%{left: 0;}
+    25%{left: -50%;}
+    50%{left:-100%;}
+    75%{left:-150%;}
+    97%{left:-200%;}
+    100%{left:0;}
+}
+
+.slidetrack::-webkit-scrollbar{
+    width: 0px;
+}
+.back8{
+    font-family: Nutino,sans-serif;
+    background-color:  #1087e9e3;
+    width:100%;
+}
+.bothead{
+    font-size: 50px;
+    color: white;
+    width: 50%;
+    
+}
+.botlist{
+    list-style-type: none;
+}
+.botlist a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    
+}
+.botthree{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.botthreetwo{
+    display: flex;
+    
+}
+.botthreetwo div{
+    margin-right: 80px;
+}
+#gotop{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #0142b9;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
